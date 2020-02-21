@@ -1,0 +1,69 @@
+*{
+	/* Selector universal: Afecta a todos los elementos de la página */
+	/* Propiedad:valor; */
+}
+body {
+	/* Selector de etiqueta */
+	/* declaración */
+  	background-color: #F5F5F5;
+}
+
+p{
+	/* Selector de etiqueta */
+	/* declaración */
+	padding:20px;
+	color: red;
+}
+
+h1{
+	/* Selector de etiqueta */
+	/* declaración */
+	font-size:100px;
+}
+a{
+	/* Selector de etiqueta */
+	/* declaración */
+	color: #000;
+}
+#idPrincipal{
+	/* Selector de id: Se aplica a todos los elementos de la página
+		cuyo atributo id coincida con el de la página; */
+
+	/* declaración */
+	margin:10px;
+}
+
+.clase{
+	/* Selector de clase: Se aplica a todos los elementos de la página
+		cuyo atributo class coincida con el de la página; */
+	width: 900px;
+	/* declaración */
+}
+
+div p{
+	/* Selector descendente: Permite seleccionar elementos que se 
+	encuentran dentro de otros elementos */
+
+	/* declaración */
+	color:blue;
+	/* Aquí se están seleccionando todos los parrafos que se encuentran
+	dentro de un div */
+}
+
+.miClase, div, span{
+	/* Agrupamiento de selectores: podemos seleccionar varios elementos 
+	separándolos por comas. */
+}
+
+div:hover{
+	/* Pseudoclases: Permite aplicar distintos estilos a los elementos
+	en relación a su estado */
+
+	/* declaración */
+	background:black;
+	/* La pseudoclase hover aplica estilos cuando se pasa el mouse
+	por el elemento */
+
+	/*También existen las pseudoclases :active, :link y :visited; */
+}
+
